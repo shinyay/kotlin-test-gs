@@ -17,7 +17,7 @@ class HelloWorldTest {
     }
 
     @Test
-    @DisplayName("Should return the correct message")
+    @DisplayName("[UT] Should return the correct message")
     fun shouldReturnCorrectMessage() {
 
         println(service.getGreeting())
